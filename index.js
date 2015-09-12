@@ -11,9 +11,8 @@ module.exports = {
       name: 'ember-cli-jsx',
       ext: 'jsx',
       toTree: function(tree) {
-        return react(tree);
+        return react(tree, {transform: {es6module: true}});
       }
     });
   }
 };
-

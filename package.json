@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-jsx",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Use jsx to preprocess your ember-cli app's files.",
   "main": "index.js",
   "scripts": {
